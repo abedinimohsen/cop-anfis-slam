@@ -1,0 +1,4 @@
+clc;clear; close all
+load('lasersampling.txt')
+load('gps_y.txt')
+plot(gps_x,gps_y)
